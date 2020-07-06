@@ -39,10 +39,7 @@ label start:
         # Make sure to remove this when coding your mod, else your player will face the tutorial or get a error
         # To return back to the tutorial, replace your edited lines with this
         # call tutorial_selection
-        if persistent.example_seen:
-            call tutorial_selection
-        else:
-            call example_chapter
+        call bestgirl_selection_menu
         
         return
 
